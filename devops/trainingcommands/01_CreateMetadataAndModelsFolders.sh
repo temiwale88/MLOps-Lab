@@ -1,0 +1,1 @@
+mkdir metadata && mkdir models

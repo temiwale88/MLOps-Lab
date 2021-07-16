@@ -1,0 +1,1 @@
+az ml run submit-script -g $(azureml.resourceGroup) -w $(azureml.workspaceName) -e $(experiment.name) --ct $(amlcompute.clusterName) -d conda_dependencies.yml -c train_diabetes -t ../metadata/run.json train_diabetes.py
