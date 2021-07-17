@@ -1,0 +1,1 @@
+az ml model deploy -g $(azureml.resourceGroup) -w $(azureml.workspaceName) -n $(service.name.production) -f ../metadata/model.json --dc aksDeploymentConfig.yml --ic inferenceConfig.yml --ct $(aks.clusterName) --overwrite

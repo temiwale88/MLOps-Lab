@@ -1,0 +1,3 @@
+To understand these test, see these two links in order:
+    - https://docs.pytest.org/en/latest/how-to/fixtures.html
+    - https://docs.pytest.org/en/6.2.x/example/simple.html
